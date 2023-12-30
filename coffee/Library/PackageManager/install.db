@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.ptc.vuforia.engine": {
+      "tarball": {
+        "hash": "6952f4478255",
+        "mtime": 1695902437000,
+        "size": 140297198,
+        "localPath": "D:\\__ARCHIEVE__\\KTH\\Coffee\\coffee\\Packages\\com.ptc.vuforia.engine-10.18.4.tgz"
+      }
+    }
+  }
+}
