@@ -15,7 +15,7 @@ D:/__ARCHIEVE__/KTH/Coffee/coffee
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63686
+51424
 Successfully changed project path to: D:/__ARCHIEVE__/KTH/Coffee/coffee
 D:/__ARCHIEVE__/KTH/Coffee/coffee
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,13 +47,13 @@ D:/__ARCHIEVE__/KTH/Coffee/coffee
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [30560] Host "[IP] 192.168.5.5 [Port] 0 [Flags] 2 [Guid] 1132634053 [EditorId] 1132634053 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-08NO7N8B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18412] Host "[IP] 192.168.5.5 [Port] 0 [Flags] 2 [Guid] 326866588 [EditorId] 326866588 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-08NO7N8B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [30560] Host "[IP] 192.168.5.5 [Port] 0 [Flags] 2 [Guid] 1132634053 [EditorId] 1132634053 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-08NO7N8B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18412] Host "[IP] 192.168.5.5 [Port] 0 [Flags] 2 [Guid] 326866588 [EditorId] 326866588 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-08NO7N8B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 119.93 ms, found 6 plugins.
-Preloading 2 native plugins for Editor in 5.09 ms.
+Refreshing native plugins compatible for Editor in 136.84 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 4.86 ms.
 Initialize engine version: 2021.3.21f1c1 (08fa194de70f)
 [Subsystems] Discovering subsystems at path D:/ProgramFilesD/UnityHub/Unity Editor/2021.3.21f1c1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/__ARCHIEVE__/KTH/Coffee/coffee/Assets
@@ -68,93 +68,93 @@ Initialize mono
 Mono path[0] = 'D:/ProgramFilesD/UnityHub/Unity Editor/2021.3.21f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/ProgramFilesD/UnityHub/Unity Editor/2021.3.21f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/ProgramFilesD/UnityHub/Unity Editor/2021.3.21f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/ProgramFilesD/UnityHub/Unity Editor/2021.3.21f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/ProgramFilesD/UnityHub/Unity Editor/2021.3.21f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.019786 seconds.
+Registered in 0.014321 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 764 ms
-Refreshing native plugins compatible for Editor in 103.50 ms, found 6 plugins.
-Preloading 2 native plugins for Editor in 0.43 ms.
+Android Extension - Scanning For ADB Devices 786 ms
+Refreshing native plugins compatible for Editor in 111.63 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.30 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.696 seconds
+- Completed reload, in  1.770 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1697ms)
-		BeginReloadAssembly (147ms)
+	ReloadAssembly (1771ms)
+		BeginReloadAssembly (162ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1366ms)
-			LoadAssemblies (138ms)
+		EndReloadAssembly (1442ms)
+			LoadAssemblies (148ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (130ms)
+			SetupTypeCache (152ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (1118ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (1170ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (866ms)
+				InitializePlatformSupportModulesInManaged (881ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (104ms)
+				RefreshPlugins (112ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (94ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.028411 seconds.
+Registered in 0.037569 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\__ARCHIEVE__\KTH\Coffee\coffee\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\__ARCHIEVE__\KTH\Coffee\coffee\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 6 plugins.
-Preloading 2 native plugins for Editor in 0.32 ms.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.35 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.660 seconds
+- Completed reload, in  2.053 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1661ms)
-		BeginReloadAssembly (213ms)
+	ReloadAssembly (2055ms)
+		BeginReloadAssembly (198ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (1266ms)
-			LoadAssemblies (170ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1667ms)
+			LoadAssemblies (169ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (340ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (661ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1054ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (28ms)
+				InitializePlatformSupportModulesInManaged (23ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (457ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (28ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (799ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (52ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.89 ms, found 6 plugins.
-Preloading 2 native plugins for Editor in 0.39 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.46 ms.
 Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (67.0 KB). Loaded Objects now: 3874.
-Memory consumption went from 120.2 MB to 120.2 MB.
-Total: 4.407500 ms (FindLiveObjects: 0.290100 ms CreateObjectMapping: 0.266500 ms MarkObjects: 3.733600 ms  DeleteObjects: 0.115800 ms)
+Unloading 44 unused Assets / (67.0 KB). Loaded Objects now: 3875.
+Memory consumption went from 120.3 MB to 120.2 MB.
+Total: 15.925100 ms (FindLiveObjects: 0.463200 ms CreateObjectMapping: 0.299500 ms MarkObjects: 15.007400 ms  DeleteObjects: 0.153100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,97 +169,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 38014.762911 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc172811d573b296104adb4d2728db37') in 0.010523 seconds 
+  Time since last request: 41416.089037 seconds.
+  path: Assets/Resources/Models/coffee_cup.glb
+  artifactKey: Guid(7d5293a8813afe44eaf61ae88eca5ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/coffee_cup.glb using Guid(7d5293a8813afe44eaf61ae88eca5ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313466cc9d031632d9596b4275399ac9') in 0.066030 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.102136 seconds.
-  path: Assets/Resources/VuforiaConfiguration.asset
-  artifactKey: Guid(6c29fd69d9cbc244da4696fad7331cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(6c29fd69d9cbc244da4696fad7331cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e492d1a80e1983109210ba99af791dc7') in 0.042054 seconds 
+  Time since last request: 608.391984 seconds.
+  path: Assets/Resources/Models/coffee
+  artifactKey: Guid(aeae90a502f33ba4d8156d78ce37683c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/coffee using Guid(aeae90a502f33ba4d8156d78ce37683c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c81920dadd24fbe98695ca310756277') in 0.002992 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.001505 seconds.
-  path: Assets/Resources/VuforiaConfiguration.asset
-  artifactKey: Guid(6c29fd69d9cbc244da4696fad7331cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(6c29fd69d9cbc244da4696fad7331cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9006bc77afdeab50018904e9388384ca') in 0.004200 seconds 
+  Time since last request: 0.045093 seconds.
+  path: Assets/Resources/Models/coffee/coffee_cup.fbx
+  artifactKey: Guid(857784d8a03fa174098f434341417296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/coffee/coffee_cup.fbx using Guid(857784d8a03fa174098f434341417296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491b019a64460b52b688c969c4c5f9c1') in 0.193397 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 428.059484 seconds.
-  path: Assets/Resources/Models
-  artifactKey: Guid(c5c82677d67a5424ea5c9b2bcc87853f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models using Guid(c5c82677d67a5424ea5c9b2bcc87853f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2ed5612c6d7521e9b1b035a1b2c061') in 0.002315 seconds 
+  Time since last request: 157.260396 seconds.
+  path: Assets/Resources/Models/coffee/coffee_cup.fbx
+  artifactKey: Guid(857784d8a03fa174098f434341417296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/coffee/coffee_cup.fbx using Guid(857784d8a03fa174098f434341417296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cd511de6c4dfd84155147831b8e004') in 0.036034 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.585022 seconds.
-  path: Assets/Resources/Models/milk
-  artifactKey: Guid(847fd3eeb05cf7744a6b57000687b4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/milk using Guid(847fd3eeb05cf7744a6b57000687b4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6d9189c4057538a05c3aaa68c6a71c') in 0.002963 seconds 
+  Time since last request: 11.472978 seconds.
+  path: Assets/Resources/Models/coffee/Materials
+  artifactKey: Guid(e69c24cbb52deda4392fc44e5dccef42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/coffee/Materials using Guid(e69c24cbb52deda4392fc44e5dccef42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bded44a57d2b7f903c00990f1c22841') in 0.002766 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.504108 seconds.
-  path: Assets/Resources/Models/milk/source
-  artifactKey: Guid(24e656498d084394e964016fb940a451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/milk/source using Guid(24e656498d084394e964016fb940a451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b02800100fb6e0a0d6d40f23ea74e46') in 0.002426 seconds 
+  Time since last request: 0.228888 seconds.
+  path: Assets/Resources/Models/coffee/Materials/coffee.mat
+  artifactKey: Guid(b9ef81682b362a74c95d0ec5b50a981c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/coffee/Materials/coffee.mat using Guid(b9ef81682b362a74c95d0ec5b50a981c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513580304ebd9e58a249c7bfc7f1892b') in 0.039121 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.059917 seconds.
-  path: Assets/Resources/Models/milk/source/FBX.fbx
-  artifactKey: Guid(01fad278f20c0ce439902843399b3604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/milk/source/FBX.fbx using Guid(01fad278f20c0ce439902843399b3604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7513b1bfc6df57957444037f79c60b0') in 0.429899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.432945 seconds.
-  path: Assets/Resources/Models/milk/source/milk.fbx
-  artifactKey: Guid(01fad278f20c0ce439902843399b3604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/milk/source/milk.fbx using Guid(01fad278f20c0ce439902843399b3604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44594359ad52c70d97cf5911036dabb2') in 0.014601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 245.367654 seconds.
-  path: Assets/Resources/Models/milk/source/milk.fbx
-  artifactKey: Guid(01fad278f20c0ce439902843399b3604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/milk/source/milk.fbx using Guid(01fad278f20c0ce439902843399b3604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a44ddcb1d13c44ff79bf75e57b19ffe') in 0.019144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.366240 seconds.
-  path: Assets/Resources/Models/milk/textures
-  artifactKey: Guid(ca7caf4d12f1eba459caa1040ef0f789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/milk/textures using Guid(ca7caf4d12f1eba459caa1040ef0f789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aeb05f30ceab57e84c0014ea1a50409') in 0.002414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.096602 seconds.
-  path: Assets/Resources/Models/milk/textures/CartonOfMilk_Default.png
-  artifactKey: Guid(f947cc2d56d94c34a90abe1f9e6ae599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/milk/textures/CartonOfMilk_Default.png using Guid(f947cc2d56d94c34a90abe1f9e6ae599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5d56475dbf0e1d99757ef839789e1b') in 0.045523 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Resources/Models/milk/textures/CartonOfMilk_Roughness.png
-  artifactKey: Guid(bb9380e4c2ed16642ae286f82b708080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/milk/textures/CartonOfMilk_Roughness.png using Guid(bb9380e4c2ed16642ae286f82b708080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f42f4777a653179dc5056e6abd125b') in 0.014822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.950819 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(aa5252b9f586c86469187222a4120e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources using Guid(aa5252b9f586c86469187222a4120e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e82430ee78bac507b8be0a6b747b6f') in 0.002224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 97.204729 seconds.
-  path: Assets/Resources/Models/milk/source/milk.fbx
-  artifactKey: Guid(01fad278f20c0ce439902843399b3604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/milk/source/milk.fbx using Guid(01fad278f20c0ce439902843399b3604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0a2e0044fa12fba9872935d061e8b8') in 0.014221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.517147 seconds.
-  path: Assets/Resources/Models/milk/source/milk.fbx
-  artifactKey: Guid(01fad278f20c0ce439902843399b3604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/milk/source/milk.fbx using Guid(01fad278f20c0ce439902843399b3604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6a1894878d0f1380663a7dd8c45be3') in 0.015005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.482044 seconds.
-  path: Assets/Resources/Models/milk/source/milk.fbx
-  artifactKey: Guid(01fad278f20c0ce439902843399b3604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Models/milk/source/milk.fbx using Guid(01fad278f20c0ce439902843399b3604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ec637d6ad742d4d131fd34d1f5ce03') in 0.031833 seconds 
+  Time since last request: 48.142321 seconds.
+  path: Assets/Resources/Models/coffee/coffee_cup.fbx
+  artifactKey: Guid(857784d8a03fa174098f434341417296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/coffee/coffee_cup.fbx using Guid(857784d8a03fa174098f434341417296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a196ca435276fd5526bc8c1d7e1a4253') in 0.032543 seconds 
