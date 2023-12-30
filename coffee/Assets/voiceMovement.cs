@@ -10,14 +10,14 @@ public class voiceMovement : MonoBehaviour
     private KeywordRecognizer keywordRecognizer;
     private Dictionary<string, Action> actions = new Dictionary<string, Action>();
 
-    void start()
+    void Start()
     {
-        actions.Add("forward", Forward);
+        actions.Add("Forward", Forward);
         actions.Add("up", Up);
 
         keywordRecognizer = new KeywordRecognizer(actions.Keys.ToArray());
-        keywordRecognizer.OnPhraseRecognized += RecognizedSpeech;
         keywordRecognizer.Start();
+        keywordRecognizer.OnPhraseRecognized += RecognizedSpeech;
         //如果我们希望监听停止
         //keywordRecognizer.Stop();
     }
