@@ -821,3 +821,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 127931.664346 seconds.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(6c29fd69d9cbc244da4696fad7331cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(6c29fd69d9cbc244da4696fad7331cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a5f54032b38b5b18904c08108d714e') in 0.069317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
